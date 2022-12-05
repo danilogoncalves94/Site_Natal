@@ -10,6 +10,12 @@
     src: url('fontes/Sensitype.ttf') format('truetype');
 }
 
+@media (min-width: 450px) {
+    .usuario {
+        height: 99vh;
+    }
+}
+
 @media (max-width: 667px) {
     .anjos {
         width: 100%;
@@ -89,7 +95,8 @@ header {
     transition-property: background-image;
 }
 
-#usuario {
+/*#usuario*/
+header div {
     height: 91%;
     display: flex;
     justify-content: flex-end;
