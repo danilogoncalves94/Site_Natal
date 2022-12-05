@@ -56,7 +56,7 @@
 
 header {
     background-image: url('imagens/fundo_bola_vermelha.jpg');
-    height: 100vh;
+    height: 100.1vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ h1+img {
 
 p {
     font-size: 42px;
-    margin: 80px;
+    margin: 80px 40px;
     font-weight: 100;
     text-align: center;
     font-family: var(--fontetexto);
