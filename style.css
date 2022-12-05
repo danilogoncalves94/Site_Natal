@@ -23,6 +23,16 @@
 }
 
 @media (max-width: 629px) {
+    .noel {
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+@media (max-width: 629px) {
     .paragrafo {margin: 80px 30px;}
 }
 
