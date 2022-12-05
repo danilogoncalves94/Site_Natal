@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fonte01';
+    src: url('fontes/Natalia\ Rosaline\ Demo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fonte02';
+    src: url('fontes/Sensitype.ttf') format('truetype');
+}
+
+@media (max-width: 667px) {
+    .anjos {
+        width: 100%;
+    }
+}
+
+@media (min-width: 630px) {
+    .noel {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 326px) {
+    .titulo {
+        font-size: 68.6px;
+    }
+}
+
+@media (max-width: 240px) {
+    .titulo {
+        font-size: 58.8px;
+        margin: 40px 0px;
+    }
+
+    .paragrafo {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 359px) {
+    .assinatura {
+        margin: 80px 40px;
+    }
+}
+
+:root {
+    --fontetitulo: 'Fonte01';
+    --fontetexto: 'Fonte02';
+}
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-image: url('imagens/fundo_bola_vermelha.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+    transition: 2s;
+    transition-property: background-image;
+}
+
+#usuario {
+    height: 98%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+
+h1 {
+    height: 150px;
+    background-image: url('imagens/pisca-pisca.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    font-size: 80px;
+    margin: 80px 0px;
+    font-family: var(--fontetitulo);
+    font-weight: 100;
+    text-align: center;
+    color: rgba(170, 6, 6, 0.877);
+}
+
+/*.noel*/
+h1+img {
+    float: right;
+    width: 90vw;
+    margin: 10vh 0px;
+}
+
+p {
+    font-size: 42px;
+    margin: 80px;
+    font-weight: 100;
+    text-align: center;
+    font-family: var(--fontetexto);
+    color: rgb(160, 146, 66);
+}
+
+/*.assinatura*/
+div p {
+    text-align: right;
+    font-family: var(--fontetitulo);
+    font-weight: 100;
+}
+
+/*.anjos*/
+div img {
+    display: block;
+    margin: auto;
+    width: 667px;
+}
+
+/*presepio*/
+img {
+    width: 100%;
+    margin: -5px 0px;
+}
+
+/*-----------------------------------------------------------------*/
+
+main {
+    display: none;
+}
+
+input {
+    background-image: url('imagens/icone_carta.png');
+    background-position: center center;
+    background-size: cover;
+    margin: 5px;
+    border: none;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.527);
+}
+
+input:focus {
+    outline: 0;
+}
+
+.envelope {
+    margin: 0px 10px;
+    width: 40px;
+}
+
+.envelope:hover {
+    cursor: pointer;
+}
