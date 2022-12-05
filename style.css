@@ -67,7 +67,7 @@ header {
 }
 
 #usuario {
-    height: 94%;
+    height: 80%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
