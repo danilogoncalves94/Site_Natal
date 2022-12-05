@@ -34,6 +34,12 @@
 
 @media (max-width: 629px) {
     .paragrafo {margin: 80px 30px;}
+    .titulo {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 326px) {
@@ -45,7 +51,10 @@
 @media (max-width: 240px) {
     .titulo {
         font-size: 58.8px;
-        margin: 40px 0px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .paragrafo {
