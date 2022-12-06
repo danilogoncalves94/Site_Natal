@@ -37,7 +37,7 @@
     }
 }
 
-@media (max-width: 700px)
+/*@media (max-width: 700px)*/
 
 @media (max-width: 629px) {
     .paragrafo {margin: 80px 30px;}
@@ -61,7 +61,7 @@
 @media (max-width: 280px) {
     .titulo {
         /*border: solid 5px red; /*teste*/
-        padding-top: 30px; /*teste*/
+        padding-top: 40px; /*teste*/
     }
 }
 
