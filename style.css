@@ -37,13 +37,10 @@
     }
 }
 
-/*@media (max-width: 700px)*/
-
 @media (max-width: 629px) {
     .paragrafo {margin: 80px 30px;}
     .titulo {
-        /*border: solid 5px red;  */      /*teste*/
-        padding-top: 45px;              /*teste*/
+        padding-top: 45px;              
         height: 130px;
         margin-top: 80px;
         margin-bottom: 80px;
@@ -156,8 +153,6 @@ img {
     width: 100%;
     margin: -5px 0px;
 }
-
-/*-----------------------------------------------------------------*/
 
 main {
     display: none;
