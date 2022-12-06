@@ -41,9 +41,9 @@
 @media (max-width: 629px) {
     .paragrafo {margin: 80px 30px;}
     .titulo {
-        border: solid 5px black;        /*teste*/
+        border: solid 5px red;        /*teste*/
         /*background-position: top center; /*teste*/
-        padding-top: 30px;              /*teste*/
+        padding-top: 50px;              /*teste*/
         /*padding-bottom: 60px; */         /*teste*/
         height: 130px;
         margin-top: 80px;
