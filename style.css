@@ -58,13 +58,6 @@
     }
 }
 
-@media (max-width: 280px) {
-    .titulo {
-        /*border: solid 5px red; /*teste*/
-        padding-top: 300px; /*teste*/
-    }
-}
-
 @media (max-width: 240px) {
     .titulo {
         font-size: 58.8px;
