@@ -60,7 +60,8 @@
 
 @media (max-width: 280px) {
     .titulo {
-        padding-top: 25px; /*teste*/
+        border: solid 5px red; /*teste*/
+        padding-top: 30px; /*teste*/
     }
 }
 
