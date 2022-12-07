@@ -10,15 +10,15 @@ function clicou() {
         let conteudoGeral = document.querySelector("#principal")
         let top = document.querySelector('#topoSite')
         let user = document.querySelector('#usuario')
-        let SorteioTexto = Math.floor(Math.random() * 12) + 1
+        let SorteioTexto = 1/*Math.floor(Math.random() * 12) + 1*/
         let sorteioFoto = Math.floor(Math.random() * 4) + 1
 
         switch (SorteioTexto) {
             case 1:
                 /*case1*/
-                conteudo1.innerHTML = `${nomeVerdade}, neste Natal, lhe desejo uma vida repleta de bênçãos e da presença de Deus em seu coração.`
+                conteudo1.innerHTML = `<span>${nomeVerdade}</span>, neste Natal, lhe desejo uma vida repleta de bênçãos e da presença de Deus em seu coração.`
 
-                conteudo2.innerHTML = `Que o menino Jesus, em sua infinita bondade, derrame sobre você e sua família, muita luz, paz, amor, alegria e esperança. Feliz Natal ${nomeVerdade}! Boas festas!`
+                conteudo2.innerHTML = `Que o menino Jesus, em sua infinita bondade, derrame sobre você e sua família, muita luz, paz, amor, alegria e esperança. Feliz Natal <span>${nomeVerdade}!</span> Boas festas!`
 
                 conteudoGeral.style.cssText = 'display: contents';
 
