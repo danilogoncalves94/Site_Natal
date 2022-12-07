@@ -182,7 +182,3 @@ input:focus {
 .envelope:hover {
     cursor: pointer;
 }
-
-span {
-    color: red;
-}
