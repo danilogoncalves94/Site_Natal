@@ -78,7 +78,7 @@ function clicou() {
                 /*case6*/
                 conteudo1.innerHTML = `Reacenda o espírito natalino em seu coração, renove as esperanças e resgate a fé. Cristo nasceu para reavivar nossas almas!`
 
-                conteudo2.innerHTML = `${nomeVerdade}, que a paz de Deus possa abençoar você e sua família em todos os dias do próximo ano! Feliz Natal e um Ano Novo com muita luz!`
+                conteudo2.innerHTML = `${nomeVerdade}, que a paz de Deus possa abençoar você e sua família em todos os dias do próximo ano! Feliz Natal e um ano novo com muita luz!`
 
                 conteudoGeral.style.cssText = 'display: contents';
 
