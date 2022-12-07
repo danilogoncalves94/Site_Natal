@@ -54,7 +54,7 @@ function clicou() {
                 /*case4*/
                 conteudo1.innerHTML = `${nomeVerdade}, que a luz da Estrela de Belém que guiou os 3 reis magos até o Salvador ilumine seus caminhos e revele a ti o verdadeiro significado do Natal.`
 
-                conteudo2.innerHTML = `Que a lembrança do nascimento de Jesus possa, neste Natal, quebrantar nossos corações e nos redimir de todo o pecado. Pois só assim poderá haver um verdadeiro recomeço no ano que está por vir. Boas Festas ${nomeVerdade}!`
+                conteudo2.innerHTML = `Que a lembrança do nascimento de Jesus possa, neste Natal, quebrantar nossos corações e nos redimir de todo o pecado. Pois só assim poderá haver um verdadeiro recomeço no ano que está por vir. Boas festas ${nomeVerdade}!`
 
                 conteudoGeral.style.cssText = 'display: contents';
 
