@@ -10,7 +10,7 @@ function clicou() {
         let conteudoGeral = document.querySelector("#principal")
         let top = document.querySelector('#topoSite')
         let user = document.querySelector('#usuario')
-        let SorteioTexto = Math.floor(Math.random() * 12) + 1
+        let SorteioTexto = 12/*Math.floor(Math.random() * 12) + 1*/
         let sorteioFoto = Math.floor(Math.random() * 4) + 1
 
         switch (SorteioTexto) {
