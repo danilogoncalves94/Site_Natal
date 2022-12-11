@@ -90,7 +90,7 @@ function clicou() {
                 /*case7*/
                 conteudo1.innerHTML = `${nomeVerdade}, Cristo veio ao mundo como prova do amor de Deus por nós, nunca se esqueça disso.`
 
-                conteudo2.innerHTML = `Natal é a presença de Jesus em nossos corações. Não só representa a fé, mas a vida, o nascimento do Filho de Deus, a consciência de família, amor, paz e felicidade. Que o sentido do Natal esteja sempre em seu coração, ${nomeVerdade}. Boas Festas!`
+                conteudo2.innerHTML = `Natal é a presença de Jesus em nossos corações. Não só representa a fé, mas a vida, o nascimento do Filho de Deus, a consciência de família, amor, paz e felicidade. Que o sentido do Natal esteja sempre em seu coração, ${nomeVerdade}. Boas festas!`
 
                 conteudoGeral.style.cssText = 'display: contents';
 
