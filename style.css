@@ -37,6 +37,12 @@
     }
 }
 
+@media(max-width: 639px) {
+    .titulo {
+        background-image: none;
+    }
+}
+
 @media (max-width: 629px) {
     .paragrafo {margin: 80px 30px;}
     .titulo {
