@@ -107,7 +107,7 @@ header div {
 
 h1 {
     height: 150px;
-    background-image: url('imagens/pisca-pisca.png');
+    /*background-image: url('imagens/pisca-pisca.png');*/
     background-size: contain;
     background-repeat: repeat-x;
     font-size: 80px;
