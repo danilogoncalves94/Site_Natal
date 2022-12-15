@@ -40,12 +40,13 @@
 @media (max-width: 629px) {
     .paragrafo {margin: 80px 30px;}
     .titulo {
-        padding-top: 45px;              
+        background-image: none;
+        /*padding-top: 45px;              
         height: 130px;
         margin-top: 80px;
         margin-bottom: 80px;
         margin-left: 0px;
-        margin-right: 0px;
+        margin-right: 0px;*/
     }
 }
 
@@ -107,7 +108,7 @@ header div {
 
 h1 {
     height: 150px;
-    /*background-image: url('imagens/pisca-pisca.png');*/
+    background-image: url('imagens/pisca-pisca.png');
     background-size: contain;
     background-repeat: repeat-x;
     font-size: 80px;
