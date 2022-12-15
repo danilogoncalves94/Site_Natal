@@ -47,15 +47,6 @@
 
 @media (max-width: 629px) {
     .paragrafo {margin: 80px 30px;}
-    .titulo {
-        background-image: none;
-        padding-top: 45px;              
-        height: 130px;
-        /*margin-top: 80px;
-        margin-bottom: 80px;
-        margin-left: 0px;
-        margin-right: 0px;*/
-    }
 }
 
 @media (max-width: 326px) {
