@@ -40,6 +40,8 @@
 @media(max-width: 712px) {
     .titulo {
         background-image: none;
+        padding-top: 45px;              
+        height: 130px;
     }
 }
 
