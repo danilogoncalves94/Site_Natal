@@ -39,10 +39,8 @@
 
 @media(max-width: 711px) {
     .titulo {
-        /*background-image: none;*/
+        background-image: none;
         margin-top: 130px;
-        /*padding-top: 45px;              
-        height: 130px;*/
     }
 }
 
@@ -107,7 +105,6 @@ header div {
 }
 
 h1 {
-    /*height: 150px;*/
     background-image: url('imagens/pisca-pisca.png');
     background-size: contain;
     background-repeat: repeat-x;
