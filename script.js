@@ -10,7 +10,7 @@ function clicou() {
         let conteudoGeral = document.querySelector("#principal")
         let top = document.querySelector('#topoSite')
         let user = document.querySelector('#usuario')
-        let SorteioTexto = Math.floor(Math.random() * 12) + 1
+        let SorteioTexto = Math.floor(Math.random() * 13) + 1
         let sorteioFoto = Math.floor(Math.random() * 4) + 1
 
         switch (SorteioTexto) {
@@ -152,6 +152,18 @@ function clicou() {
 
                 conteudo2.innerHTML = `Que Jesus Cristo seja sempre uma luz a brilhar no coração daqueles que o buscam. Que o espírito natalino traga
                 aos nossos corações a fé inabalável dos que acreditam na graça e misericórdia de Cristo. Feliz Natal, ${nomeVerdade}!`
+
+                conteudoGeral.style.cssText = 'display: contents';
+
+                top.style.cssText = `background-image: url('imagens/fundo${sorteioFoto}.jpg')`
+
+                user.style.cssText = 'opacity: 0%'
+                break;
+            case 13:
+                /*case13*/
+                conteudo1.innerHTML = `${nomeVerdade} existe uma magia no ar quando o Natal está chegando. Que esta magia te contagie. Que o amor de Deus, a graça e a fidelidade de Jesus Cristo estejam com você.`
+
+                conteudo2.innerHTML = `Desejo que você realmente tenha um Natal especial, repleto de belas surpresas e paz. Que o próximo ano seja próspero, e que consiga realizar seus sonhos e desejos. Feliz Natal, ${nomeVerdade}! Boas festas!`
 
                 conteudoGeral.style.cssText = 'display: contents';
 
